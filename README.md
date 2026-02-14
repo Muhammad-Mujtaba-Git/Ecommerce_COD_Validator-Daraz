@@ -1,8 +1,4 @@
-Having your image hosted on Docker Hub is a massive flex, especially at the 3-month mark! That means anyone in the world can run your entire machine learning system with a single command, without having to install Python or download your code.
 
-Here is the fully updated, complete README.md with your Docker Hub image integrated into the instructions.
-
-Markdown
 # 📦 E-Commerce COD Risk Predictor 
 
 **An End-to-End Machine Learning System to predict Cash-on-Delivery (COD) order cancellations.**
