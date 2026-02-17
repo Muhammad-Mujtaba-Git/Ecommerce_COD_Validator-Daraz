@@ -48,52 +48,35 @@ The Random Forest `.pkl` pipeline is loaded into global memory outside of the pr
 
 If you wish to run this architecture locally, follow the steps below.
 
-**Prerequisites:**
+### Prerequisites
 * Python 3.11+
 * Docker (Optional)
 
-**Step 1: Clone the repository**
-
-git clone [https://github.com/Muhammad-Mujtaba-Git/Ecommerce_COD_Validator-Daraz.git](https://github.com/Muhammad-Mujtaba-Git/Ecommerce_COD_Validator-Daraz.git)
+### Step 1: Clone the Repository
+git clone https://github.com/Muhammad-Mujtaba-Git/Ecommerce_COD_Validator-Daraz.git
 cd Ecommerce_COD_Validator-Daraz
 
 
-Step 2: Install dependencies
-
-Bash
-
-
+### Step 2: Install Dependencies
 pip install -r requirements.txt
 
 
-Step 3: Run the FastAPI Backend
-
-Bash
-
-
+### Step 3: Run the FastAPI Backend
 uvicorn main:app --reload --port 8000
 
+*The API documentation will be available at http://127.0.0.1:8000/docs*
 
-The API documentation will be available at http://127.0.0.1:8000/docs
-Step 4: Run the Streamlit Frontend
+### Step 4: Run the Streamlit Frontend
 Open a new terminal window and run:
-
-Bash
-
-
 streamlit run streamlitapp.py
 
 
-Run via Docker
+---
+
+### Run via Docker
 To pull and run the fully containerized API directly from Docker Hub:
-
-Bash
-
 
 docker pull muhammadmujtabaai/daraz-cod-risk-checker
 docker run -p 7860:7860 muhammadmujtabaai/daraz-cod-risk-checker
-
-
-
 
 
